@@ -128,8 +128,8 @@ char auth[] = "YourAuthToken";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "YourNetworkName";
-char pass[] = "YourPassword";
+char ssid[] = "Nbox";
+char pass[] = "EGHMMKXQHQ37";
 
   BLYNK_WRITE(V51) {  // Power button
     if (param.asInt() == 0) {
